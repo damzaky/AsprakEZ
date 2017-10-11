@@ -16,7 +16,7 @@ for (var i = 0; i < links.length; i++) {
 if(links[i].innerHTML.indexOf(namz) != -1) {
 	var damz = links[i];
 	var zak = damz.querySelectorAll('[title="Upload"],[original-title="Upload"]');
-    links[i].style.backgroundColor = "red";
+    links[i].style.backgroundColor = "#e6edf5";
 	document.getElementsByName("param1[]")[i].value=0;
 	document.getElementsByName("param3[]")[i].value=0;
 	document.getElementsByName("param4[]")[i].value=0;
