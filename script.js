@@ -38,10 +38,10 @@ ca(mer[i].getAttribute("href"));
 }
 for (var i = 0; i < merd.length; i++) {
 merd[i].style.backgroundColor = "blue";
-ca(mer[i].getAttribute("href"));
+ca(merd[i].getAttribute("href"));
 }
 for (var i = 0; i < merde.length; i++) {
 merde[i].style.backgroundColor = "blue";
-ca(mer[i].getAttribute("href"));
+ca(merde[i].getAttribute("href"));
 }
 document.createElement('form').submit.call(document.getElementById('formNilaiPraktikan'));
