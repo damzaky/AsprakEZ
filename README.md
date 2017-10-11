@@ -1,5 +1,5 @@
 # AsprakEZ
-Makes it easier for asprak to score :)
+Makes it easier for asprak to download and score :)
 
 ## How to use
 1. Change the `"Dmz"` on the first line inside `script.js` file, with your nickname that you've set on IMPULSE
