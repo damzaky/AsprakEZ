@@ -29,9 +29,9 @@ zak[j].style.backgroundColor = "yellow";
 }
 	
 }
-var mer = document.querySelectorAll('[title="ubah status TA"]');
-var merd = document.querySelectorAll('[title="ubah status jurnal"]');
-var merde = document.querySelectorAll('[title="ubah status TK"]');
+var mer = document.querySelectorAll('[title="ubah status TA"],[original-title="ubah status TA"]');
+var merd = document.querySelectorAll('[title="ubah status jurnal"],[original-title="ubah status jurnal"]');
+var merde = document.querySelectorAll('[title="ubah status TK"],[original-title="ubah status TK"]');
 for (var i = 0; i < mer.length; i++) {
 mer[i].style.backgroundColor = "blue";
 ca(mer[i].getAttribute("href"));
