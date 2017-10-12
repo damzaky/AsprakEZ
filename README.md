@@ -6,3 +6,6 @@ Makes it easier for asprak to download and score :)
 2. Login to the "nilai" page of impulse
 3. Press CTRL+SHIFT+J
 4. Paste the whole script to the console then press enter
+
+## Security
+Don't worry, I didn't inject any code that will steal your account information to this script
