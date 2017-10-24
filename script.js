@@ -99,7 +99,7 @@ seconds = parseInt(seconds, 10);
 if (seconds == 1) {
 temp = document.getElementById('countdown');
 temp.innerHTML = "0";
-document.createElement('form').submit.call(document.getElementById('formNilaiPraktikan'));
+//document.createElement('form').submit.call(document.getElementById('formNilaiPraktikan'));
 return;
 }
 seconds--;
