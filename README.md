@@ -2,9 +2,12 @@
 Makes it easier for asprak to download and score
 
 ## How to use
-Basically choose one script to use out of four, use `batchDownload.js` to download all uploaded files, use `removeRedDots.js` to remove all red dots/circle, use `zeroTesawalTesakhirSkill.js` to assign value 0 to tesawal, tesakhir, skill form, use `oneForAll.js` to do all above scripts simultaneously.
+Basically, you are only required to choose one script to use out of four, use `batchDownload.js` to download all uploaded files, use `removeRedDots.js` to remove all red dots/circle, use `zeroTesawalTesakhirSkill.js` to assign value 0 to tesawal, tesakhir, skill form, use `oneForAll.js` to do all above scripts simultaneously.
 
-1. Change the `"Dmz"` on the first line inside `batchDownload.js`, `removeRedDots.js`, `zeroTesawalTesakhirSkill.js`, `oneForAll.js` file, with your nickname that you've set on IMPULSE
+1. Change the `Dmz` on the first line inside `batchDownload.js`, `removeRedDots.js`, `zeroTesawalTesakhirSkill.js`, `oneForAll.js` file, with your nickname that you've set on `http://10.30.40.123/iflab/asprak/formProfile`, in this case, my SHORT NAME is `Dmz`
+
+![nick](https://user-images.githubusercontent.com/4760947/32130756-8522fa4a-bbc8-11e7-8e2d-b85e2885d485.png)
+
 2. Login to the "nilai" page of impulse
 3. Press CTRL+SHIFT+J for Chrome users, press CTRL+SHIFT+K for Firefox users
 4. Paste the whole script to the console then press enter
