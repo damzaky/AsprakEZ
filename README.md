@@ -2,7 +2,7 @@
 Makes it easier for asprak to download and score
 
 ## How to use
-Basically, you are only required to choose one script to use out of four, use `batchDownload.js` to download all uploaded files, use `removeRedDots.js` to remove all red dots/circle, use `zeroTesawalTesakhirSkill.js` to assign value 0 to tesawal, tesakhir, skill form, use `oneForAll.js` to do all above scripts simultaneously.
+Basically, you are only required to choose one script to use out of four, use `batchDownload.js` to download all uploaded files, use `removeRedDots.js` to remove all red dots/circle, use `zeroTesawalTesakhirSkill.js` to assign value 0 to tesawal, tesakhir, skill form, use `oneForAll.js` to do all above scripts simultaneously. **TL;DR FOR THE LAZY, USE oneForAll.js**
 
 1. Change the `Dmz` on the first line inside `batchDownload.js`, `removeRedDots.js`, `zeroTesawalTesakhirSkill.js`, `oneForAll.js` file, with your SHORT NAME that you've set on `http://10.30.40.123/iflab/asprak/formProfile`, in this case, my SHORT NAME is `Dmz`
 
