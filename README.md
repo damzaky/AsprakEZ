@@ -1,5 +1,5 @@
 # AsprakEZ
-Makes it easier for asprak to download and score :)
+Makes it easier for asprak to download and score
 
 ## How to use
 Basically choose one script to use out of four, use `batchDownload.js` to download all uploaded files, use `removeRedDots.js` to remove all red dots/circle, use `zeroTesawalTesakhirSkill.js` to assign value 0 to tesawal, tesakhir, skill form, use `oneForAll.js` to do all above scripts simultaneously.
