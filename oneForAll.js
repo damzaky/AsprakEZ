@@ -27,17 +27,8 @@ callback.apply(xhr);
 };
 xhr.send();
 }
-
-function du(url) {
-   //location = downloadURL;
-window.open(url, '_blank');
-}
-function dr(uri) 
-{
-    var link = document.createElement("a");
-    //link.download = uri.split('/').pop();
-    link.href = uri;
-    link.click();
+function kar(url){
+	window.open(url, '_blank');
 }
 function ca(url){
 var x;
@@ -79,12 +70,7 @@ function(){
 s = this.responseText;
 s = s.match(/(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig);
 ss = s[s.length-2];
-//if(j==0){
-//du(ss);
-dr(ss);
-//}else{
-//ca(ss);
-//}
+kar(ss);
 }
 );
 }
@@ -99,7 +85,7 @@ seconds = parseInt(seconds, 10);
 if (seconds == 1) {
 temp = document.getElementById('countdown');
 temp.innerHTML = "0";
-//document.createElement('form').submit.call(document.getElementById('formNilaiPraktikan'));
+document.createElement('form').submit.call(document.getElementById('formNilaiPraktikan'));
 return;
 }
 seconds--;
