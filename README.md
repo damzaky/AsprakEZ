@@ -29,3 +29,6 @@ Redo step 1 (after you allow the popup)
 
 ## Security
 Don't worry, I didn't inject any code that will steal your account information to this script
+
+## Compatibility
+Tested on Chrome Version 61.0.3163.100 and Firefox 56.0.2
