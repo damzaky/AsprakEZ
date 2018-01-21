@@ -12,6 +12,8 @@ Basically, you are only required to choose one script to use out of four, use `b
 3. Press CTRL+SHIFT+J for Chrome users, press CTRL+SHIFT+K for Firefox users
 4. Paste the whole script to the console then press enter
 
+PLEASE NOTE, this sometimes doesn't work, so if your downloaded file names are the same, you should try to restart it, this happens because the time AJAX take to send the data to your device may vary
+
 ### Special for oneForAll.js and batchDownload.js
 These messages may show up since it's trying to open multiple links at once, browsers detect it as popups, you must allow it first.
 
