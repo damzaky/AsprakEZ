@@ -1,4 +1,6 @@
 var namz = "Dmz"; //asprak unique identifier
+var micin = [0/*tes awal*/,0/*jurnal*/,0/*tes akhir*/,0/*skill*/];//0=off, 1=on, example: if tes awal is 0, then nothing will in tes awal field will be changed
+var val = [0/*tes awal*/,0/*jurnal*/,0/*tes akhir*/,0/*skill*/];//example: if tes awal is 30, then all test awal fields will be assigned 30
 
 var dv = document.createElement("div");
 dv.style.left = "0";
@@ -48,9 +50,18 @@ var nams =links[i].innerHTML.toLowerCase();
 if( nams.indexOf(namz) != -1) {
 var damz = links[i];
 var zak = damz.querySelectorAll('[title="Upload"],[original-title="Upload"]');
-document.getElementsByName("param1[]")[i].value=0;
-document.getElementsByName("param3[]")[i].value=0;
-document.getElementsByName("param4[]")[i].value=0;
+if(micin[0]==1){
+document.getElementsByName("param1[]")[i].value=val[0];
+}
+if(micin[1]==1){
+document.getElementsByName("param2[]")[i].value=val[1];
+}
+if(micin[2]==1){
+document.getElementsByName("param3[]")[i].value=val[2];
+}
+if(micin[3]==1){
+document.getElementsByName("param4[]")[i].value=val[3];
+}
 }	
 }
 var seconds;
