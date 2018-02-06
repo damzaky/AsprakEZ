@@ -2,9 +2,9 @@
 Makes it easier for asprak to download and score
 
 ## How to use
-Basically, you are only required to choose one script to use out of four, use `batchDownload.js` to download all uploaded files, use `removeRedDots.js` to remove all red dots/circle, use `zeroTesawalTesakhirSkill.js` to assign value 0 to tesawal, tesakhir, skill form, use `oneForAll.js` to do all above scripts simultaneously. **TL;DR FOR THE LAZY, USE oneForAll.js**
+Basically, you are only required to choose one script to use out of four, use `batchDownload.js` to download all uploaded files, use `removeRedDots.js` to remove all red dots/circle, use `batchAssign.js` to assign determined values to tesawal, jurnal, tesakhir, skill form once and for all.
 
-1. Change the `Dmz` on the first line inside `batchDownload.js`, `removeRedDots.js`, `zeroTesawalTesakhirSkill.js`, `oneForAll.js` file (depends on the file you choose) with your SHORT NAME that you've set on http://10.30.40.123/iflab/asprak/formProfile, in this case, my SHORT NAME is `Dmz`
+1. Change the `Dmz` on the first line inside the file you want to use with your SHORT NAME that you've set on http://10.30.40.123/iflab/asprak/formProfile, in this case, my SHORT NAME is `Dmz`
 
 ![nick](https://user-images.githubusercontent.com/4760947/32130756-8522fa4a-bbc8-11e7-8e2d-b85e2885d485.png)
 
@@ -14,7 +14,7 @@ Basically, you are only required to choose one script to use out of four, use `b
 
 PLEASE NOTE, this sometimes doesn't work, so if your downloaded file names are the same, you should try to restart it, this happens because the time AJAX take to send the data to your device may vary
 
-### Special for oneForAll.js and batchDownload.js
+### Special for batchDownload.js
 These messages may show up since it's trying to open multiple links at once, browsers detect it as popups, you must allow it first.
 
 ![firefoxpopup](https://user-images.githubusercontent.com/4760947/32130562-d0365a08-bbc4-11e7-9af5-ce767afcd1de.png)
