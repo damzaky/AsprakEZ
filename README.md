@@ -14,7 +14,16 @@ Basically, you are only required to choose one script to use out of four, use `b
 
 PLEASE NOTE, this sometimes doesn't work, so if your downloaded file names are the same, you should try to restart it, this happens because the time AJAX take to send the data to your device may vary
 
-### batchAssign
+### batchAssign.js
+```
+var micin = [0/*tes awal*/,0/*jurnal*/,0/*tes akhir*/,0/*skill*/];
+var val = [0/*tes awal*/,0/*jurnal*/,0/*tes akhir*/,0/*skill*/];
+```
+
+On micin array, the array represents 0=off, 1=on, example: if tes awal is 0, then nothing will in tes awal field will be changed
+
+On val array, example: if tes awal is 30, then all test awal fields will be assigned 30
+
 ### batchDownload.js
 These messages may show up since it's trying to open multiple links at once, browsers detect it as popups, you must allow it first.
 
