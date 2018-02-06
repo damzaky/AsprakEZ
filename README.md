@@ -12,15 +12,13 @@ Basically, you are only required to choose one script to use out of four, use `b
 3. Press CTRL+SHIFT+J for Chrome users, press CTRL+SHIFT+K for Firefox users
 4. Paste the whole script to the console then press enter
 
-PLEASE NOTE, this sometimes doesn't work, so if your downloaded file names are the same, you should try to restart it, this happens because the time AJAX take to send the data to your device may vary
-
 ### batchAssign.js
 ```
 var micin = [0/*tes awal*/,0/*jurnal*/,0/*tes akhir*/,0/*skill*/];
 var val = [0/*tes awal*/,0/*jurnal*/,0/*tes akhir*/,0/*skill*/];
 ```
 
-On micin array, the array represents 0=off, 1=on, example: if tes awal is 0, then nothing will in tes awal field will be changed
+On micin array, the array represents 0=off, 1=on, example: if tes awal is 0, then nothing in tes awal field will be changed
 
 On val array, example: if tes awal is 30, then all test awal fields will be assigned 30
 
@@ -38,6 +36,8 @@ do the followings
 ![ffirefoxpopup2](https://user-images.githubusercontent.com/4760947/32130561-d0042f6a-bbc4-11e7-9442-ba8e4dafaa3f.png)
 
 Redo step 1 (after you allow the popup)
+
+**PLEASE NOTE**, this sometimes doesn't work, so if your downloaded file names are the same, you should try to restart it, this happens because the time AJAX take to send the data to your device may vary
 
 ## Security
 Don't worry, I didn't inject any code that will steal your account information to this script
