@@ -28,9 +28,13 @@ var micin = [1/*tes awal*/,0/*jurnal*/,1/*tes akhir*/,1/*skill*/];
 var val = [30/*tes awal*/,0/*jurnal*/,0/*tes akhir*/,0/*skill*/];
 ```
 The code above will assign all tes awal with 30 and assign all tes akhir and skill with 0 and it will not assign anything to jurnal just like below:
+
 **before**
+
 ![before](https://user-images.githubusercontent.com/4760947/35846140-e8355f3c-0b47-11e8-83aa-66d221a02ac1.png)
+
 **after**
+
 ![after](https://user-images.githubusercontent.com/4760947/35846136-e80085f0-0b47-11e8-8625-a0f9970db851.png)
 
 ### batchDownload.js
