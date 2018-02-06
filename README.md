@@ -22,6 +22,13 @@ On micin array, the array represents 0=off, 1=on, example: if tes awal is 0, the
 
 On val array, example: if tes awal is 30, then all test awal fields will be assigned 30
 
+**Example**
+```
+var micin = [1/*tes awal*/,0/*jurnal*/,1/*tes akhir*/,1/*skill*/];
+var val = [30/*tes awal*/,0/*jurnal*/,0/*tes akhir*/,0/*skill*/];
+```
+The code above will assign all tes awal with 30 and assign all tes akhir and skill with 0 and it will not assign anything to jurnal
+
 ### batchDownload.js
 These messages may show up since it's trying to open multiple links at once, browsers detect it as popups, you must allow it first.
 
