@@ -14,7 +14,8 @@ Basically, you are only required to choose one script to use out of four, use `b
 
 PLEASE NOTE, this sometimes doesn't work, so if your downloaded file names are the same, you should try to restart it, this happens because the time AJAX take to send the data to your device may vary
 
-### Special for batchDownload.js
+### batchAssign
+### batchDownload.js
 These messages may show up since it's trying to open multiple links at once, browsers detect it as popups, you must allow it first.
 
 ![firefoxpopup](https://user-images.githubusercontent.com/4760947/32130562-d0365a08-bbc4-11e7-9af5-ce767afcd1de.png)
