@@ -52,7 +52,7 @@ do the followings
 
 Redo step 1 (after you allow the popup)
 
-**PLEASE NOTE**, this sometimes doesn't work, so if your downloaded file names are the same, you should try to restart it, this happens because the time AJAX take to send the data to your device may vary
+**PLEASE NOTE**, this sometimes doesn't work, so if your downloaded files name are the same, you should try to restart it, this happens because the time AJAX take to send the data to your device may vary
 
 ## Security
 Don't worry, I didn't inject any code that will steal your account information to this script
