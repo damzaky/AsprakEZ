@@ -67,7 +67,7 @@ var temp;
 
 function countdown() {
 seconds = document.getElementById('countdown').innerHTML;
-seconds = parseInt(seconds, 10);
+seconds = parseInt(seconds, 3);
 if (seconds == 1) {
 temp = document.getElementById('countdown');
 temp.innerHTML = "0";
