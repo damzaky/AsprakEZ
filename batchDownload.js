@@ -12,7 +12,7 @@ dv.style.background = "rgba(0, 0, 0, 0.8)";
 dv.style.color = "white";
 dv.style.position = "fixed";
 dv.style.display = "table";
-var dvt = '<div style="display: table-cell;vertical-align: middle;text-align: center;padding: 20px 30px;"><h1 style="font-size: 300%;color:#fff!important;border:0!important;text-transform:none;font-family: arial, sans-serif;">Kalo udah kedownload, reload aja :v</h1><h2 style="font-size: 150%;color:#fff!important;border:0!important;text-transform:none;font-family: arial, sans-serif;">Silakan tunggu <span id="countdown">11</span> detik</h2></div>';
+var dvt = '<div style="display: table-cell;vertical-align: middle;text-align: center;padding: 20px 30px;"><h1 style="font-size: 300%;color:#fff!important;border:0!important;text-transform:none;font-family: arial, sans-serif;">Kalo udah kedownload, reload aja :v</h1><h2 style="font-size: 150%;color:#fff!important;border:0!important;text-transform:none;font-family: arial, sans-serif;">Silakan tunggu <span id="countdown">4</span> detik</h2></div>';
 document.body.appendChild(dv);
 dv.innerHTML = dvt;
 function get(url, callback) {
@@ -67,7 +67,7 @@ var temp;
 
 function countdown() {
 seconds = document.getElementById('countdown').innerHTML;
-seconds = parseInt(seconds, 3);
+seconds = parseInt(seconds, 10);
 if (seconds == 1) {
 temp = document.getElementById('countdown');
 temp.innerHTML = "0";
